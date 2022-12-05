@@ -1,0 +1,73 @@
+body {
+    background-color: white;
+    display: flex;
+}
+
+.calculator {
+    width: 600px;
+    height: 800px;  
+    background-color: white;
+    margin: 20px auto;
+}
+
+.sum {
+    width: 600px;
+    height: 200px;
+    background-color: lightslategray;
+}
+
+#sum-text {
+    text-align: right;
+    font-size: 60px;
+    padding-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.nao {
+    width: 600px;
+    height: 600px;
+    background-color: lightgray;
+}
+
+.row {
+    width: 600px;
+    height: 100px;
+    display: flex;
+}
+
+.noodiv {
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.noodiv:hover {
+    background-color: darkgray;
+}
+
+.noo {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.equals {
+    width: 600px;
+    height: 200px;
+    background-color: limegreen;
+    margin: 0;
+}
+
+.equals:hover {
+    background-color: lime;
+    font-size: larger;
+}
+
+#equals-text {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding-top: 60px;
+    
+}
